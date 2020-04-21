@@ -1,0 +1,8 @@
+﻿  Source.cpp
+E:\C_HW\HW2_Part2\HW2_Part2\Source.cpp(76,59): error C2664: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::replace(const std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,const std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,const unsigned __int64,const _Elem)': cannot convert argument 4 from 'std::string' to 'const unsigned __int64'
+          with
+          [
+              _Elem=char
+          ]
+E:\C_HW\HW2_Part2\HW2_Part2\Source.cpp(76,54): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstring(3162,19): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::replace'
